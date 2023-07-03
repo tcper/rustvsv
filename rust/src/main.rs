@@ -23,11 +23,11 @@ fn main() -> Result<(), Error> {
     let v: Vec<Vec<f64>> = serde_json::from_str(&contents).unwrap();
     // println!("{:?}",v);
     for mut x in v {
-        println!("{:?}", x);
+        // println!("{:?}", x);
         // let mut ve1 = vec![5, -3, 0, 3, 1, 2, -1, 8, 7];
-        println!("排序前: {:?}",x);
+        // println!("排序前: {:?}",x);
         bubble_sort(&mut x);
-        println!("排序后：{:?}",x);
+        // println!("排序后：{:?}",x);
     }
     Ok(())
 }
