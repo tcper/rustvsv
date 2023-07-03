@@ -12,17 +12,6 @@ fn main() {
         // println(arr[i])
     }
     println('消耗时间 : ${sw.elapsed().milliseconds()}ms')
-    /*
-	mut test_arr := []int{}
-	for _ in 0..gen_len {
-		test_arr << rand.int_in_range(-gen_max, gen_max)!
-	}
-	println('Random array length : $test_arr.len')
-	sw := time.new_stopwatch()
-	bubble_sort(mut test_arr)
-	println('Took : ${sw.elapsed().milliseconds()}ms')
-	println('Result : $test_arr')
-    */
 }
 
 
