@@ -1,0 +1,1 @@
+valgrind -- rust/target/release/
